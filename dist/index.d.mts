@@ -2,7 +2,7 @@ declare class MergnService {
     #private;
     private constructor();
     static getInstance(): MergnService;
-    init(apiKey: string): void;
+    init(apiKey: string, swPath?: string): void;
     setDebugLevel(debugLevel: number): void;
     recordAttribute(attributeName: string, attributeValue: string): void;
     login(identity: string): void;
