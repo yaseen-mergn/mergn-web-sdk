@@ -1,1 +1,273 @@
-function _0x48ac(_0xf0af1c,_0x184ae0){const _0x2a19cc=_0x2a19();return _0x48ac=function(_0x48ac20,_0x52550c){_0x48ac20=_0x48ac20-0xb3;let _0x2b82f8=_0x2a19cc[_0x48ac20];return _0x2b82f8;},_0x48ac(_0xf0af1c,_0x184ae0);}const _0x56eb81=_0x48ac;(function(_0x2ef628,_0x137e81){const _0x1c3554=_0x48ac,_0xca95df=_0x2ef628();while(!![]){try{const _0x2f9cab=parseInt(_0x1c3554(0xee))/0x1+-parseInt(_0x1c3554(0xf3))/0x2+parseInt(_0x1c3554(0xc1))/0x3+-parseInt(_0x1c3554(0xf0))/0x4*(parseInt(_0x1c3554(0xf5))/0x5)+parseInt(_0x1c3554(0xe9))/0x6*(parseInt(_0x1c3554(0xc8))/0x7)+-parseInt(_0x1c3554(0xd8))/0x8*(parseInt(_0x1c3554(0xb4))/0x9)+parseInt(_0x1c3554(0xe5))/0xa;if(_0x2f9cab===_0x137e81)break;else _0xca95df['push'](_0xca95df['shift']());}catch(_0x4b77ee){_0xca95df['push'](_0xca95df['shift']());}}}(_0x2a19,0xd48c3));function _0x2a19(){const _0x147d7c=['Platform','events','eventProperty','Notification\x20close\x20event\x20received:\x20','click','title','readonly','focus','MyMergnDatabase','createObjectStore','action','840606dxOvms','get','open','p256dh','Web\x20Push\x20Notification\x20Clicked','options','Notification\x20click\x20event\x20received:\x20','7zllCeK','message','openWindow','Error\x20in\x20recording\x20event','registration','newSubscription','put','then','toJSON','debugLevel','stringify','view','notificationclose','Push\x20subscription\x20change\x20event\x20received:\x20','config','INFO:\x20','8VsDjtG','ERROR:\x20','action1','url','campaignCustomerInstanceId','push','error','Error\x20in\x20logging\x20debug','/record-event','keys','Web\x20Push\x20Notification\x20Viewed','objectStore','Error\x20in\x20message\x20event','14729300MBucYk','result','notification','install','373770bDnxWV','POST','Web\x20Push\x20Notification\x20Closed','data','addEventListener','1373356AIUPAo','Error\x20in\x20notification\x20click\x20event','4WKdlqu','http://','close','1480684ghLGIi','json','3059340QIkiIZ','Error\x20in\x20push\x20event','device_id','onupgradeneeded','waitUntil','https://','abcd','/device/add-device-token','onerror','/v2','Error\x20in\x20notification\x20close\x20event','skipWaiting','Error\x20in\x20push\x20subscription\x20change\x20event','https://u23z4zsda8.execute-api.ap-southeast-1.amazonaws.com/Prod/sdk-management/api','/event','MergnObjectStore','Message\x20event\x20received:\x20','Push\x20event\x20data\x20received:\x20','startsWith','application/json','length','API_KEY','matchAll','auth','parse','action2','objectStoreNames','osVersion','info','contains','operatingSystem','8693802hhxFvX','os-version'];_0x2a19=function(){return _0x147d7c;};return _0x2a19();}const openDatabase=()=>{return new Promise((_0x10f5c4,_0x5ccf3b)=>{const _0x3a1fcb=_0x48ac;let _0x52443a=indexedDB[_0x3a1fcb(0xc3)](_0x3a1fcb(0xbe),0x1);_0x52443a[_0x3a1fcb(0xf8)]=function(){const _0x2febed=_0x3a1fcb;let _0x5e365f=_0x52443a[_0x2febed(0xe6)];!_0x5e365f[_0x2febed(0x10f)][_0x2febed(0x112)](_0x2febed(0x104))&&_0x5e365f[_0x2febed(0xbf)](_0x2febed(0x104),{'keyPath':'id'});},_0x52443a['onsuccess']=()=>_0x10f5c4(_0x52443a[_0x3a1fcb(0xe6)]),_0x52443a[_0x3a1fcb(0xfd)]=()=>_0x5ccf3b(_0x52443a[_0x3a1fcb(0xde)]);});},getConfig=async()=>{let _0x149246=await openDatabase();return new Promise((_0x1a974e,_0x336765)=>{const _0xcc854b=_0x48ac;let _0x414c5f=_0x149246['transaction'](_0xcc854b(0x104),_0xcc854b(0xbc)),_0x6cbeaf=_0x414c5f[_0xcc854b(0xe3)](_0xcc854b(0x104)),_0x4ad6b0=_0x6cbeaf[_0xcc854b(0xc2)]('config');_0x4ad6b0['onsuccess']=()=>_0x1a974e(_0x4ad6b0['result']),_0x4ad6b0[_0xcc854b(0xfd)]=()=>_0x336765(_0x4ad6b0['error']);});},logDebug=async(_0x255ee5,_0x526f15)=>{const _0x3963b1=_0x48ac;try{let _0x4d3393=await getConfig();if(!_0x4d3393||!_0x4d3393[_0x3963b1(0xd1)])return;if(_0x4d3393[_0x3963b1(0xd1)]<=0x3){if(_0x255ee5===0x1)console[_0x3963b1(0x111)](_0x3963b1(0xd7)+new Date()['toISOString'](),_0x526f15);else _0x255ee5===0x2&&console['error'](_0x3963b1(0xd9)+new Date()['toISOString'](),_0x526f15);}}catch(_0x3c66d7){console[_0x3963b1(0xde)](_0x3c66d7?.[_0x3963b1(0xc9)]||_0x3963b1(0xdf));}},toFullPath=_0x21082f=>{const _0x25b5fb=_0x48ac;if(!_0x21082f['startsWith'](_0x25b5fb(0xf1))&&!_0x21082f[_0x25b5fb(0x107)](_0x25b5fb(0xfa)))return _0x25b5fb(0xf1)+_0x21082f;return _0x21082f;},recordEvent=async({campaignCustomerInstanceId:_0x3c903b,eventName:_0x434adf,name:_0x14e317})=>{const _0x45a181=_0x48ac;try{let _0x5ef116=await getConfig();const _0x5e171a={'customerId':_0x5ef116['customer'],'events':[{'campaignCustomerInstanceId':_0x3c903b,'eventId':_0x5ef116[_0x45a181(0xb7)][_0x434adf]?.['id']||'','eventProperties':[{'eventPropertyId':_0x5ef116[_0x45a181(0xb7)][_0x434adf]?.[_0x45a181(0xb8)]?.[_0x45a181(0xb6)]?.['id'],'value':_0x5ef116['Platform']},{'eventPropertyId':_0x5ef116['events'][_0x434adf]?.['eventProperty']?.['operating-system']?.['id'],'value':_0x5ef116[_0x45a181(0xb3)]},{'eventPropertyId':_0x5ef116[_0x45a181(0xb7)][_0x434adf]?.['eventProperty']?.[_0x45a181(0xb5)]?.['id'],'value':_0x5ef116[_0x45a181(0x110)]}],'name':_0x14e317,'sessionId':_0x45a181(0xfb)}]};try{const _0x3415f3='https://u23z4zsda8.execute-api.ap-southeast-1.amazonaws.com/Prod/sdk-management/api',_0x4119de=_0x45a181(0x103),_0xcf4feb=_0x45a181(0xe0);fetch(_0x3415f3+_0x45a181(0xfe)+_0x4119de+_0xcf4feb,{'body':JSON[_0x45a181(0xd2)](_0x5e171a),'headers':{'Authorization':_0x5ef116[_0x45a181(0x10a)],'Content-Type':_0x45a181(0x108)},'method':_0x45a181(0xea)});}catch(_0x5cd17a){logDebug(0x2,_0x5cd17a?.[_0x45a181(0xc9)]||_0x45a181(0xcb));}const {API_KEY:_0x6eed60,events:_0x215d4a,..._0x3905bc}=_0x5ef116;logDebug(0x1,'Recording\x20event\x20config:\x20'+_0x3905bc),logDebug(0x1,'Recording\x20event:\x20'+_0x5e171a);}catch(_0x4eafbf){logDebug(0x2,_0x4eafbf?.[_0x45a181(0xc9)]||_0x45a181(0xcb));}};self['addEventListener']('message',async _0x3e573f=>{const _0x2f5141=_0x48ac;try{let _0x4a6ca7=await getConfig();const _0x4e6983=_0x3e573f[_0x2f5141(0xec)]?JSON[_0x2f5141(0x10d)](_0x3e573f[_0x2f5141(0xec)]):null;if(_0x4e6983){let _0x211d01=await openDatabase(),_0x83d08a=_0x211d01['transaction'](_0x2f5141(0x104),'readwrite'),_0xfb50cf=_0x83d08a[_0x2f5141(0xe3)](_0x2f5141(0x104)),_0x1650a4={'id':_0x2f5141(0xd6),..._0x4a6ca7||{},..._0x4e6983};_0xfb50cf[_0x2f5141(0xce)](_0x1650a4);}if(_0x4e6983[_0x2f5141(0xb7)]){const {API_KEY:_0x445b7d,events:_0x3b7187,..._0x5d4cef}=_0x4e6983;logDebug(0x1,_0x2f5141(0x105)+JSON['stringify'](_0x5d4cef));}else logDebug(0x1,'Message\x20event\x20received:\x20'+JSON[_0x2f5141(0xd2)](_0x4e6983));const {API_KEY:_0x43de29,events:_0x4c6e9f,..._0x47d85c}=_0x4a6ca7;logDebug(0x1,'Message\x20event\x20config:\x20'+JSON[_0x2f5141(0xd2)](_0x47d85c));}catch(_0x319685){logDebug(0x2,_0x319685?.[_0x2f5141(0xc9)]||_0x2f5141(0xe4));}}),self['addEventListener'](_0x56eb81(0xdd),async function(_0x3537b0){const _0x1e759b=_0x56eb81;try{if(_0x3537b0[_0x1e759b(0xec)]){const _0x44fe29=_0x3537b0['data'][_0x1e759b(0xf4)]();logDebug(0x1,_0x1e759b(0x106)+JSON[_0x1e759b(0xd2)](_0x3537b0[_0x1e759b(0xec)])),_0x3537b0[_0x1e759b(0xf9)](self[_0x1e759b(0xcc)]['showNotification'](_0x44fe29[_0x1e759b(0xbb)],_0x44fe29[_0x1e759b(0xc6)])),recordEvent({'campaignCustomerInstanceId':_0x44fe29[_0x1e759b(0xc6)][_0x1e759b(0xec)][_0x1e759b(0xdc)]||'','eventName':_0x1e759b(0xe2),'name':_0x1e759b(0xd3)});}}catch(_0x14b21b){logDebug(0x2,_0x14b21b?.[_0x1e759b(0xc9)]||_0x1e759b(0xf6));}}),self[_0x56eb81(0xed)]('notificationclick',async function(_0xeb5ccb){const _0x28f42e=_0x56eb81;try{logDebug(0x1,_0x28f42e(0xc7)+JSON['stringify'](_0xeb5ccb?.['notification']?.[_0x28f42e(0xec)])),_0xeb5ccb[_0x28f42e(0xe7)][_0x28f42e(0xf2)]();if(_0xeb5ccb[_0x28f42e(0xc0)]===_0x28f42e(0xda)){}else{if(_0xeb5ccb[_0x28f42e(0xc0)]===_0x28f42e(0x10e)){}else{var _0x5bfe07=_0xeb5ccb[_0x28f42e(0xe7)]['data'][_0x28f42e(0xdb)];_0xeb5ccb['waitUntil'](clients[_0x28f42e(0x10b)]({'includeUncontrolled':!![],'type':'window'})[_0x28f42e(0xcf)](function(_0x581df8){const _0x25911d=_0x28f42e;var _0x53c57a=null;for(var _0x274071=0x0;_0x274071<_0x581df8[_0x25911d(0x109)];_0x274071++){var _0x5439a0=_0x581df8[_0x274071];if(_0x5439a0[_0x25911d(0xdb)]===_0x5bfe07){_0x53c57a=_0x5439a0;break;}}return _0x53c57a?_0x53c57a[_0x25911d(0xbd)]():clients[_0x25911d(0xca)](toFullPath(_0x5bfe07));})),recordEvent({'campaignCustomerInstanceId':_0xeb5ccb[_0x28f42e(0xe7)][_0x28f42e(0xec)]['campaignCustomerInstanceId']||'','eventName':_0x28f42e(0xc5),'name':_0x28f42e(0xba)});}}}catch(_0x2e3d2b){logDebug(0x2,_0x2e3d2b?.[_0x28f42e(0xc9)]||_0x28f42e(0xef));}}),self[_0x56eb81(0xed)](_0x56eb81(0xd4),async function(_0x618351){const _0x24b5d3=_0x56eb81;try{logDebug(0x1,_0x24b5d3(0xb9)+JSON['stringify'](_0x618351?.['notification']?.['data'])),recordEvent({'campaignCustomerInstanceId':_0x618351[_0x24b5d3(0xe7)]['data'][_0x24b5d3(0xdc)]||'','eventName':_0x24b5d3(0xeb),'name':_0x24b5d3(0xf2)});}catch(_0x3c1657){logDebug(0x2,_0x3c1657?.[_0x24b5d3(0xc9)]||_0x24b5d3(0xff));}}),self[_0x56eb81(0xed)](_0x56eb81(0xe8),function(_0x41cbc8){const _0x526977=_0x56eb81;_0x41cbc8['waitUntil'](self[_0x526977(0x100)]());}),self[_0x56eb81(0xed)]('pushsubscriptionchange',async _0x19b21b=>{const _0x523008=_0x56eb81;try{logDebug(0x1,_0x523008(0xd5)+JSON[_0x523008(0xd2)](_0x19b21b));let _0xda983d=await getConfig();const _0x1a92e9=_0x523008(0x102);_0x19b21b[_0x523008(0xf9)](fetch(_0x1a92e9+_0x523008(0xfc),{'body':JSON[_0x523008(0xd2)]({'device_id':_0xda983d[_0x523008(0xf7)],'is_web_push_subscribed':!![],'web_push_subscription_page_url':'/','web_push_token':{'token':{'endpoint':_0x19b21b[_0x523008(0xcd)]?_0x19b21b['newSubscription']['endpoint']:null,'expirationTime':null,'keys':{'auth':_0x19b21b['newSubscription']?_0x19b21b[_0x523008(0xcd)][_0x523008(0xd0)]()['keys'][_0x523008(0x10c)]:null,'p256dh':_0x19b21b[_0x523008(0xcd)]?_0x19b21b['newSubscription'][_0x523008(0xd0)]()[_0x523008(0xe1)][_0x523008(0xc4)]:null}}}}),'headers':{'Authorization':_0xda983d[_0x523008(0x10a)],'Content-Type':_0x523008(0x108)},'method':_0x523008(0xea)}));}catch(_0x7de698){logDebug(0x2,_0x7de698?.[_0x523008(0xc9)]||_0x523008(0x101));}});
+const openDatabase = () => {
+    return new Promise((resolve, reject) => {
+      let open = indexedDB.open('MyMergnDatabase', 1);
+      open.onupgradeneeded = function () {
+        let db = open.result;
+        if (!db.objectStoreNames.contains('MergnObjectStore')) {
+          db.createObjectStore('MergnObjectStore', { keyPath: 'id' });
+        }
+      };
+      open.onsuccess = () => resolve(open.result);
+      open.onerror = () => reject(open.error);
+    });
+  };
+  
+  const getConfig = async () => {
+    let db = await openDatabase();
+    return new Promise((resolve, reject) => {
+      let tx = db.transaction('MergnObjectStore', 'readonly');
+      let store = tx.objectStore('MergnObjectStore');
+      let getRequest = store.get('config');
+      getRequest.onsuccess = () => resolve(getRequest.result);
+      getRequest.onerror = () => reject(getRequest.error);
+    });
+  };
+  
+  const logDebug = async (LogLevel, message) => {
+    try {
+      let config = await getConfig();
+      if (!config || !config.debugLevel) return;
+  
+      if (config.debugLevel <= 3) {
+        if (LogLevel === 1) {
+          console.info(`INFO: ${new Date().toISOString()}`, message);
+        } else if (LogLevel === 2) {
+          console.error(`ERROR: ${new Date().toISOString()}`, message);
+        }
+      }
+    } catch (error) {
+      console.error(error?.message || 'Error in logging debug');
+    }
+  };
+  
+  const toFullPath = url => {
+    if (!url.startsWith('http://') && !url.startsWith('https://')) {
+      // Prepend 'http://' or 'https://' to url
+      // Change to 'https://' if you want secure protocol
+      return `http://${url}`;
+    }
+    return url;
+  };
+  
+  const recordEvent = async ({ campaignCustomerInstanceId, eventName, name }) => {
+    try {
+      let config = await getConfig();
+      const data = {
+        customerId: config.customer,
+        events: [
+          {
+            campaignCustomerInstanceId,
+            eventId: config.events[eventName]?.id || '',
+            eventProperties: [
+              {
+                eventPropertyId: config.events[eventName]?.eventProperty?.['Platform']?.id,
+                value: config.Platform,
+              },
+              {
+                eventPropertyId: config.events[eventName]?.eventProperty?.['operating-system']?.id,
+                value: config.operatingSystem,
+              },
+              {
+                eventPropertyId: config.events[eventName]?.eventProperty?.['os-version']?.id,
+                value: config.osVersion,
+              },
+            ],
+            name,
+            sessionId: 'abcd',
+          },
+        ],
+      };
+  
+      try {
+        const API_BASE_URL = 'https://95sidwa5jk.execute-api.ap-southeast-1.amazonaws.com/Prod/sdk-management/api';
+  
+        const EVENT_BASE_URL = '/event';
+        const EVENT_RECORD_EVENT_URL = '/record-event';
+  
+        fetch(`${API_BASE_URL}/v2${EVENT_BASE_URL}${EVENT_RECORD_EVENT_URL}`, {
+          body: JSON.stringify(data),
+          headers: {
+            Authorization: config.API_KEY,
+            'Content-Type': 'application/json',
+          },
+          method: 'POST',
+        });
+      } catch (error) {
+        logDebug(2, error?.message || 'Error in recording event');
+      }
+  
+      const { API_KEY, events, ...rest } = config;
+  
+      logDebug(1, `Recording event config: ${rest}`);
+      logDebug(1, `Recording event: ${data}`);
+    } catch (error) {
+      logDebug(2, error?.message || 'Error in recording event');
+    }
+  };
+  
+  self.addEventListener('message', async event => {
+    try {
+      console.log('🚀 ~ message: received on SW');
+  
+      let config = await getConfig();
+  
+      const data = event.data ? JSON.parse(event.data) : null;
+  
+      if (data) {
+        let db = await openDatabase();
+        let tx = db.transaction('MergnObjectStore', 'readwrite');
+        let store = tx.objectStore('MergnObjectStore');
+        let updatedConfig = {
+          id: 'config', // Ensure the object has the property 'id' with value 'config'
+          ...(config || {}),
+          ...data,
+        };
+        store.put(updatedConfig);
+      }
+  
+      if (data.events) {
+        const { API_KEY, events, ...rest } = data;
+        logDebug(1, `Message event received: ${JSON.stringify(rest)}`);
+      } else {
+        logDebug(1, `Message event received: ${JSON.stringify(data)}`);
+      }
+  
+      const { API_KEY, events, ...rest } = config;
+      logDebug(1, `Message event config: ${JSON.stringify(rest)}`);
+    } catch (error) {
+      logDebug(2, error?.message || 'Error in message event');
+    }
+  });
+  
+  self.addEventListener('push', async function (event) {
+    try {
+      if (event.data) {
+        const data = event.data.json();
+  
+        logDebug(1, `Push event data received: ${JSON.stringify(event.data)}`);
+  
+        event.waitUntil(self.registration.showNotification(data.title, data.options));
+  
+        recordEvent({
+          campaignCustomerInstanceId: data.options.data.campaignCustomerInstanceId || '',
+          eventName: 'Web Push Notification Viewed',
+          name: 'view',
+        });
+      }
+    } catch (error) {
+      logDebug(2, error?.message || 'Error in push event');
+      //
+    }
+  });
+  
+  self.addEventListener('notificationclick', async function (event) {
+    try {
+      logDebug(1, `Notification click event received: ${JSON.stringify(event?.notification?.data)}`);
+  
+      event.notification.close();
+  
+      if (event.action === 'action1') {
+        // Handle action 1
+      } else if (event.action === 'action2') {
+        // Handle action 2
+      } else {
+        // Handle notification click
+  
+        // Get the URL from the notification data
+        var urlToOpen = event.notification.data.url;
+  
+        event.waitUntil(
+          // eslint-disable-next-line no-undef
+          clients
+            .matchAll({
+              includeUncontrolled: true,
+              type: 'window',
+            })
+            .then(function (windowClients) {
+              var matchingClient = null;
+  
+              for (var i = 0; i < windowClients.length; i++) {
+                var windowClient = windowClients[i];
+                if (windowClient.url === urlToOpen) {
+                  matchingClient = windowClient;
+                  break;
+                }
+              }
+  
+              if (matchingClient) {
+                return matchingClient.focus();
+              } else {
+                // eslint-disable-next-line no-undef
+                return clients.openWindow(toFullPath(urlToOpen));
+              }
+            })
+        );
+  
+        recordEvent({
+          campaignCustomerInstanceId: event.notification.data.campaignCustomerInstanceId || '',
+          eventName: 'Web Push Notification Clicked',
+          name: 'click',
+        });
+      }
+    } catch (error) {
+      logDebug(2, error?.message || 'Error in notification click event');
+      //
+    }
+  });
+  
+  self.addEventListener('notificationclose', async function (event) {
+    try {
+      logDebug(1, `Notification close event received: ${JSON.stringify(event?.notification?.data)}`);
+  
+      recordEvent({
+        campaignCustomerInstanceId: event.notification.data.campaignCustomerInstanceId || '',
+        eventName: 'Web Push Notification Closed',
+        name: 'close',
+      });
+    } catch (error) {
+      logDebug(2, error?.message || 'Error in notification close event');
+      //
+    }
+  });
+  
+  self.addEventListener('install', function (event) {
+    event.waitUntil(self.skipWaiting()); // Force waiting service worker to become active
+  });
+  
+  self.addEventListener('pushsubscriptionchange', async event => {
+    try {
+      logDebug(1, `Push subscription change event received: ${JSON.stringify(event)}`);
+  
+      let config = await getConfig();
+  
+      const API_BASE_URL = 'https://95sidwa5jk.execute-api.ap-southeast-1.amazonaws.com/Prod/sdk-management/api';
+  
+      event.waitUntil(
+        fetch(`${API_BASE_URL}/device/add-device-token`, {
+          body: JSON.stringify({
+            device_id: config.device_id,
+            is_web_push_subscribed: true,
+            web_push_subscription_page_url: '/',
+            web_push_token: {
+              token: {
+                endpoint: event.newSubscription ? event.newSubscription.endpoint : null,
+                expirationTime: null,
+                keys: {
+                  auth: event.newSubscription ? event.newSubscription.toJSON().keys.auth : null,
+                  p256dh: event.newSubscription ? event.newSubscription.toJSON().keys.p256dh : null,
+                },
+              },
+            },
+          }),
+          headers: {
+            Authorization: config.API_KEY,
+            'Content-Type': 'application/json',
+          },
+          method: 'POST',
+        })
+      );
+    } catch (error) {
+      logDebug(2, error?.message || 'Error in push subscription change event');
+    }
+  });
+  
