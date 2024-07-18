@@ -14,7 +14,7 @@ declare class MergnService {
     static getInstance(): MergnService;
     init(apiKey: string, options?: InitOptions): void;
     setDebugLevel(debugLevel: number, recordDebugEventsToggle?: RecordDebugEventsToggle): void;
-    recordAttribute(attributeName: string, attributeValue: string): Promise<void>;
+    recordAttribute(attributeName: string, attributeValue: string | number | string[] | number[]): Promise<void>;
     login(identity: string): Promise<void>;
     logout(): void;
     recordEvent(eventName: string, eventProperties?: {
